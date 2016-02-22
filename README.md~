@@ -6,8 +6,8 @@
 ### sample usage:
 ##### The difference between chained defers and defered lists is that chain defer wil take the output value of the last callback to the next and defered_lists will take args as argument and will input those args on the callback or errback
 #### add callbacks and errback
-   var defer = require('twisted-node') 
-   function _cb(value){
+    var defer = require('twisted-node') 
+    function _cb(value){
 	var ret = value *2;
 	console.log("ret1: "+ ret);
 	return ret;

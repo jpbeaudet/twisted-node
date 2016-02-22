@@ -1,4 +1,4 @@
-# Defer.js
+# Twisted-node
 ## A very ligthweigth twisted.web type of promise implementation for node.js for full async progamming
 
 ### install:
